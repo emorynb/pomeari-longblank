@@ -5,8 +5,8 @@ description = "LongBlank extension for Pomeari"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "frontmatter>=3.0.8",
     "pomeari",
-    "telegraph>=2.2.0",
 ]
 
 [tool.uv.sources]
